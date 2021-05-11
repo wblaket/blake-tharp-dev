@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blake-tharp-dev/static/css/main.8fc09da3.chunk.css",
+    "main.js": "/blake-tharp-dev/static/js/main.40828980.chunk.js",
+    "main.js.map": "/blake-tharp-dev/static/js/main.40828980.chunk.js.map",
+    "runtime-main.js": "/blake-tharp-dev/static/js/runtime-main.000b197f.js",
+    "runtime-main.js.map": "/blake-tharp-dev/static/js/runtime-main.000b197f.js.map",
+    "static/js/2.dade3988.chunk.js": "/blake-tharp-dev/static/js/2.dade3988.chunk.js",
+    "static/js/2.dade3988.chunk.js.map": "/blake-tharp-dev/static/js/2.dade3988.chunk.js.map",
+    "static/js/3.37788dcd.chunk.js": "/blake-tharp-dev/static/js/3.37788dcd.chunk.js",
+    "static/js/3.37788dcd.chunk.js.map": "/blake-tharp-dev/static/js/3.37788dcd.chunk.js.map",
+    "index.html": "/blake-tharp-dev/index.html",
+    "static/css/main.8fc09da3.chunk.css.map": "/blake-tharp-dev/static/css/main.8fc09da3.chunk.css.map",
+    "static/js/2.dade3988.chunk.js.LICENSE.txt": "/blake-tharp-dev/static/js/2.dade3988.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.000b197f.js",
+    "static/js/2.dade3988.chunk.js",
+    "static/css/main.8fc09da3.chunk.css",
+    "static/js/main.40828980.chunk.js"
+  ]
+}
