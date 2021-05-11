@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+/* Color Palette
+----------------------------m */
+
+/* EE6055 Fire Opal */
+/* 60D394 Medium Aquamarine */
+/* AAF683 Mint Green */
+/* FFD97D Orange Yellow Crayola */
+/* FF9B85 Vivid Tangerine */
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +48,114 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Global styles
+----------------------------------------------*/
+p, h1, h2, h3 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+/* Header styles
+----------------------------------------------*/
+#header {
+  text-align: center;
+  margin-bottom: 2%;
+  background-color: #2E294E;
+}
+
+#links {
+  color:white;
+}
+
+#profile-pic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+/* Home Page styles
+----------------------------------------------*/
+#home-page {
+  text-align:center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#home-page h1 {
+  text-align:center;
+  font-size: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#home-page p {
+  text-align:center;
+  font-size: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* About Page styles
+----------------------------------------------*/
+#about-page h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+#about-page p {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* Project-list Page styles
+----------------------------------------------*/
+#project-list {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Project Page styles
+----------------------------------------------*/
+#project-page {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.github-link {
+  color:white;
+}
+
+/* Skills Page styles
+----------------------------------------------*/
+#skills-list {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size:15px;
+}
+
+
+/* Contact Page styles
+----------------------------------------------*/
+#contact-page {
+  text-align:center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+#contact-page h1, p {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#contact-page h1 {
+  font-size: 50px;
+
+}
+
+#contact-page p {
+  font-size: 30px;
 }
