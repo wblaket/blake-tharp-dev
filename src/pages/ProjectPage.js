@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import projectContent from '../Components/project-data';
 import {Table, Button} from 'semantic-ui-react';
+import {Link} from 'react-router-dom';
 
 const ProjectPage = ( {match} ) => {
 
@@ -64,8 +65,8 @@ const ProjectPage = ( {match} ) => {
         </Table.Body>
     </Table>
 
-    <Button color='green'><a href={project.github} class="github-link">View on Github</a></Button>
-    <Button color='blue'><a href="/projects"class="github-link">Back to Projects</a></Button>
+    <Button color='green'><a href={project.github}>View on Github</a></Button>
+    <Link to="../projects"><Button color='blue'>Back to Projects</Button></Link>
 
     </div>
   );
