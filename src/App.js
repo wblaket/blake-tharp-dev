@@ -29,12 +29,12 @@ class App extends Component {
           <div>
             <Switch>
               <Route path="/" component={HomePage} />
-              <Route path="/about" component={AboutPage} />
-              <Route path="/contact" component={ContactPage} />
-              <Route path="/projects" component={ProjectsListPage} />
-              <Route path="/project/:name" component={ProjectPage} />
-              <Route path="/skills" component={SkillsPage} />
-              <Route path="/work" component={WorkPage} />
+              <Route path="https://blaketharp.dev/about" component={AboutPage} />
+              <Route path="https://blaketharp.dev/contact" component={ContactPage} />
+              <Route path="https://blaketharp.dev/projects" component={ProjectsListPage} />
+              <Route path="https://blaketharp.dev/project/:name" component={ProjectPage} />
+              <Route path="https://blaketharp.dev/skills" component={SkillsPage} />
+              <Route path="https://blaketharp.dev/work" component={WorkPage} />
             </Switch>
           </div>
         </div>
