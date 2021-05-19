@@ -82,6 +82,23 @@ const ProjectsList =( { projects }) => (
             </Card>
           </Link>
 
+          <Link to="/project/fetch-walker">
+            <Card
+            color="red">
+              <Card.Content>
+                <Image />
+                <Card.Header>Fetch-Walker</Card.Header>
+                <Card.Meta>MERN Stack</Card.Meta>
+                <Card.Description>App for dog walkers</Card.Description>
+              </Card.Content>
+              <Card.Content extra >
+                <Card.Description><AiFillHtml5 size={30} /> <DiCss3 size={30} /> <DiJavascript size={30}/><FaReact size={30}/>
+                <SiMongodb size={30} />
+                </Card.Description>
+              </Card.Content>
+            </Card>
+          </Link>
+
           <Link to="/project/blake-tharp">
             <Card
             color="red">

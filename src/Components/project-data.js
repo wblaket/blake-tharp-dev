@@ -26,7 +26,6 @@ const projects = [
         framework: 'none',
         github: 'https://github.com/wblaket/jax-blog',
         shortDesc: 'Micro-blogging website',
-        badges: [`<AiFillHtml5 />`, `<SiCss3 />`, `<SiMysql />`, `<SiPhp />`],
         description: [
             `Micro-blogging website using PHP & MySQL to store user accounts and blog posts.`,
 
@@ -43,7 +42,6 @@ const projects = [
         framework: 'Django',
         github: 'https://github.com/wblaket/ticket-now',
         shortDesc: 'IT Ticketing System',
-        badges: [`<AiFillHtml5 />`, `<SiCss3 />`, `<SiDjango />`, `<FaBootstrap />`, `<SiPython />`],
         description: [
             `Python-based ticket management system built with Django framework.
             End-users can create and submit Incident, Reqest, Problem, and Change tickets.
@@ -56,14 +54,26 @@ const projects = [
         frontend: ['HTML', 'CSS', 'Bootstrap'],
         backend: ['NodeJS', 'MongoDB', 'Express'],
         framework: 'React',
-        github: 'https://github.com/wblaket/ticket-now',
+        github: 'https://github.com/wblaket/tech-blog',
         shortDesc: 'Technical Blog',
-        badges: [`<AiFillHtml5 />`, `<SiCss3 />`, `<FaReact />`, `<FaBootstrap />`, `<SiMongodb />`],
         description: [
             `Tech blog built with React where readers can view articles that are stored on a
             No-SQL server. Using MongoDB and Express, users can leave upvotes on articles.`,
         ]
-    },  {
+    },{
+        name: 'fetch-walker',
+        title: 'Fetch Walker',
+        stack: 'MERN',
+        frontend: ['HTML', 'CSS', 'Semantic UI'],
+        backend: ['NodeJS', 'MongoDB', 'Express'],
+        framework: 'React',
+        github: 'https://github.com/wblaket/dog-walker',
+        shortDesc: 'Dog Walker App',
+        description: [
+            `App where people can connect with dog owners seeking walkers for their pets.`,
+        ]
+    },
+    {
         name: 'blake-tharp',
         title: 'BlakeTharp.dev',
         stack: 'MERN',
@@ -86,7 +96,6 @@ const projects = [
         framework: 'N/A',
         github: 'https://github.com/wblaket/advanced-tictactoe',
         shortDesc: 'Tic-Tac-Toe with a unique twist!',
-        badges: [`<AiFillHtml5 />`, `<SiCss3 />`],
         description: [
             `JavaScript Tic Tac Toe game that allows users to select larger board sizes up to 6x6.
             Players can customize the win conditions as well as the board theme.

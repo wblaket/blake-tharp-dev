@@ -8,7 +8,7 @@ const ProjectsListPage = () => {
   return (
     <>
     <Helmet>
-        <title>{ "Blake Tharp | Projects " }</title>
+        <title>{ "Blake Tharp | Projects" }</title>
       </Helmet>
     <ProjectsList projects={projectContent} />
     </>
