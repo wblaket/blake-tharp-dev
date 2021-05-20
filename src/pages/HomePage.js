@@ -29,8 +29,8 @@ const HomePage = () => {
       cool and exciting full-stack projects.</p>
 
       <a href="mailto:wblaketharp@gmail.com"><MdEmail size={50}/></a>
-      <Link to="https://github.com/wblaket"><FaGithub size={50}/></Link>
-      <Link to="https://www.linkedin.com/in/williamblaketharp/"><FaLinkedin size={50}/></Link>
+      <a href="https://github.com/wblaket"><FaGithub size={50}/></a>
+      <a href="https://www.linkedin.com/in/williamblaketharp/"><FaLinkedin size={50}/></a>
 
     </div>
   );

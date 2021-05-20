@@ -58,31 +58,32 @@ const projects = [
         shortDesc: 'Technical Blog',
         description: [
             `Tech blog built with React where readers can view articles that are stored on a
-            No-SQL server. Using MongoDB and Express, users can leave upvotes on articles.`,
+            No-SQL server. Using MongoDB and Express, users can leave upvotes and comments on articles.`,
         ]
     },{
         name: 'fetch-walker',
         title: 'Fetch Walker',
         stack: 'MERN',
-        frontend: ['HTML', 'CSS', 'Semantic UI'],
+        frontend: ['HTML', 'CSS', 'React', 'Semantic UI'],
         backend: ['NodeJS', 'MongoDB', 'Express'],
         framework: 'React',
         github: 'https://github.com/wblaket/dog-walker',
         shortDesc: 'Dog Walker App',
         description: [
-            `App where people can connect with dog owners seeking walkers for their pets.`,
+            `App where potential dog-walkers can find and connect with local pet-owners. Users can view
+            photos of the pet and other relevant details. Data for the owners and pets are stored and fetched from
+            a MongoDB database.`,
         ]
     },
     {
         name: 'blake-tharp',
         title: 'BlakeTharp.dev',
         stack: 'MERN',
-        frontend: ['HTML', 'CSS', 'SemanticUI'],
+        frontend: ['HTML', 'CSS', 'React', 'SemanticUI'],
         backend: ['N/A'],
         framework: 'React',
-        github: '',
+        github: 'https://github.com/wblaket/blake-tharp-dev',
         shortDesc: 'Technical Blog',
-        bbadges: [`<AiFillHtml5 />`, `<SiCss3 />`, `<FaReact />`, `<GiAtom />`],
         description: [
             `If you're reading this, you're here now! This is a front-end site
             built around the React framework. You can view the code for this site on Github.`
@@ -91,7 +92,7 @@ const projects = [
         name: 'tic-tac-toe',
         title: 'Advanced Tic-Tac-Toe',
         stack: 'N/A',
-        frontend: ['HTML', 'CSS'],
+        frontend: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
         backend: ['N/A'],
         framework: 'N/A',
         github: 'https://github.com/wblaket/advanced-tictactoe',

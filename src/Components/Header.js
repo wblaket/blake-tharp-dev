@@ -11,7 +11,7 @@ import {BsPerson} from 'react-icons/bs';
 const Header = () => (
   <>
   <div id="header">
-  <Image id="profile-pic" src="https://media-exp1.licdn.com/dms/image/C4E03AQEy5xmx-TiauQ/profile-displayphoto-shrink_800_800/0/1589896768252?e=1625702400&v=beta&t=zy5FavJi58uqartp6bCcke3hz1ta06jDXpb64pCuY1w" size="medium"circular/>
+  <Image id="profile-pic" src="profile-pic.png" size="medium" circular/>
 
     <div id="links">
       <span><Link to="/"><AiOutlineHome size={50}/>Home</Link></span>

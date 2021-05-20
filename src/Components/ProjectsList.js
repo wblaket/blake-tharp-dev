@@ -16,10 +16,12 @@ document.head.appendChild(styleLink);
 
 const ProjectsList =( { projects }) => (
     <div id="project-list">
+      <h2>Web Developer Projects</h2>
 
       <Card.Group centered itemsPerRow={3}>
-        <Link to="/project/my-library">
+
           <Card
+            href="/#/project/my-library"
             color="blue">
               <Card.Content>
                 <Image />
@@ -31,10 +33,9 @@ const ProjectsList =( { projects }) => (
                 <Card.Description><AiFillHtml5 size={30} /> <DiCss3 size={30} /> <SiMysql size={30}/> <SiPhp size={30}/></Card.Description>
               </Card.Content>
             </Card>
-          </Link>
 
-          <Link to="/project/jax-blog">
             <Card
+              href="/#/project/jax-blog"
               color="blue">
               <Card.Content>
                 <Image />
@@ -46,10 +47,9 @@ const ProjectsList =( { projects }) => (
                 <Card.Description><AiFillHtml5 size={30} /> <DiCss3 size={30} /> <SiMysql size={30}/> <SiPhp size={30}/></Card.Description>
               </Card.Content>
             </Card>
-          </Link>
 
-          <Link to="/project/ticket-now">
             <Card
+            href="/#/project/ticket-now"
             color="green">
               <Card.Content>
                 <Image />
@@ -63,10 +63,9 @@ const ProjectsList =( { projects }) => (
                 </Card.Description>
               </Card.Content>
             </Card>
-          </Link>
 
-          <Link to="/project/the-302">
             <Card
+            href="/#/project/the-302"
             color="red">
               <Card.Content>
                 <Image />
@@ -80,10 +79,8 @@ const ProjectsList =( { projects }) => (
                 </Card.Description>
               </Card.Content>
             </Card>
-          </Link>
-
-          <Link to="/project/fetch-walker">
             <Card
+            href="/#/project/fetch-walker"
             color="red">
               <Card.Content>
                 <Image />
@@ -97,10 +94,9 @@ const ProjectsList =( { projects }) => (
                 </Card.Description>
               </Card.Content>
             </Card>
-          </Link>
 
-          <Link to="/project/blake-tharp">
             <Card
+            href="/#/project/blake-tharp"
             color="red">
               <Card.Content>
                 <Image />
@@ -112,10 +108,9 @@ const ProjectsList =( { projects }) => (
                 <Card.Description><AiFillHtml5 size={30} /> <DiCss3 size={30} /> <DiJavascript size={30}/><FaReact size={30}/></Card.Description>
               </Card.Content>
             </Card>
-          </Link>
 
-          <Link to="/project/tic-tac-toe">
             <Card
+            href="/#/project/tic-tac-toe"
             color="blue">
               <Card.Content>
                 <Image />
@@ -127,8 +122,6 @@ const ProjectsList =( { projects }) => (
                 <Card.Description><AiFillHtml5 size={30} /> <DiCss3 size={30} /> <DiJavascript size={30}/></Card.Description>
               </Card.Content>
             </Card>
-          </Link>
-
       </Card.Group>
 
     </div>
