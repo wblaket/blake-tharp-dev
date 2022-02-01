@@ -25,7 +25,7 @@ const HomePage = () => {
       </Helmet>
 
       <h1>Hi! My name is Blake Tharp.</h1>
-      <p>I am a web developer based in Cincincinati. I have a passion for building
+      <p>I am a web developer based in Cincinnati. I have a passion for building
       cool and exciting full-stack projects.</p>
 
       <a href="mailto:wblaketharp@gmail.com"><MdEmail size={50}/></a>
