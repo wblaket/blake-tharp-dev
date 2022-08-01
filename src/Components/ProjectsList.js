@@ -18,7 +18,7 @@ const ProjectsList =( { projects }) => (
     <div id="project-list">
       <h2>Web Developer Projects</h2>
 
-      <Card.Group centered itemsPerRow={3}>
+      <Card.Group>
 
           <Card
             href="/#/project/my-library"

@@ -15,7 +15,7 @@ const ContactPage = () => {
       </Helmet>
 
     <h1>Let's Talk!</h1>
-    <p>Want to reach me? Quickest way to contact me is via email at   <a href="mailto:wblaketharp@gmail.com">wblaketharp@gmail.com </a>
+    <p>Want to reach me? Quickest way to contact me is via email at   <a href="mailto:blake.tharp@outlook.com">blake.tharp@outlook.com </a>
     or by messaging me on <a href="https://www.linkedin.com/in/williamblaketharp/">LinkedIn</a></p>
     <a href="mailto:wblaketharp@gmail.com"><MdEmail size={50}/></a>
     <Link to="https://github.com/wblaket"><FaGithub size={50}/></Link>
